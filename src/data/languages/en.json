@@ -1,0 +1,2712 @@
+{
+  "meta": {
+    "code": "en",
+    "name": "İngilizce",
+    "nativeName": "English",
+    "bcp47": "en-US",
+    "direction": "ltr",
+    "speechLang": "en-US"
+  },
+  "words": [
+    {
+      "word": "hello",
+      "reading": "helolı",
+      "meaning": "merhaba",
+      "level": "baslangic",
+      "category": "selamlasma",
+      "emoji": "👋",
+      "image": ""
+    },
+    {
+      "word": "hi",
+      "reading": "hay",
+      "meaning": "selam",
+      "level": "baslangic",
+      "category": "selamlasma",
+      "emoji": "👋",
+      "image": ""
+    },
+    {
+      "word": "goodbye",
+      "reading": "gud bay",
+      "meaning": "hoşça kal",
+      "level": "baslangic",
+      "category": "selamlasma",
+      "emoji": "🙋",
+      "image": ""
+    },
+    {
+      "word": "bye",
+      "reading": "bay",
+      "meaning": "güle güle",
+      "level": "baslangic",
+      "category": "selamlasma",
+      "emoji": "👋",
+      "image": ""
+    },
+    {
+      "word": "good morning",
+      "reading": "gud mornîng",
+      "meaning": "günaydın",
+      "level": "baslangic",
+      "category": "selamlasma",
+      "emoji": "🌅",
+      "image": ""
+    },
+    {
+      "word": "good afternoon",
+      "reading": "gud aftırnun",
+      "meaning": "tünaydın",
+      "level": "orta",
+      "category": "selamlasma",
+      "emoji": "🌤️",
+      "image": ""
+    },
+    {
+      "word": "good evening",
+      "reading": "gud iiiîvnîng",
+      "meaning": "iyi akşamlar",
+      "level": "orta",
+      "category": "selamlasma",
+      "emoji": "🌆",
+      "image": ""
+    },
+    {
+      "word": "good night",
+      "reading": "gud nayt",
+      "meaning": "iyi geceler",
+      "level": "orta",
+      "category": "selamlasma",
+      "emoji": "🌙",
+      "image": ""
+    },
+    {
+      "word": "please",
+      "reading": "pliiz",
+      "meaning": "lütfen",
+      "level": "baslangic",
+      "category": "selamlasma",
+      "emoji": "🙏",
+      "image": ""
+    },
+    {
+      "word": "thank you",
+      "reading": "tenk yu",
+      "meaning": "teşekkür ederim",
+      "level": "baslangic",
+      "category": "selamlasma",
+      "emoji": "🙏",
+      "image": ""
+    },
+    {
+      "word": "you're welcome",
+      "reading": "yor velkım",
+      "meaning": "rica ederim",
+      "level": "baslangic",
+      "category": "selamlasma",
+      "emoji": "😊",
+      "image": ""
+    },
+    {
+      "word": "sorry",
+      "reading": "sori",
+      "meaning": "özür dilerim",
+      "level": "baslangic",
+      "category": "selamlasma",
+      "emoji": "😔",
+      "image": ""
+    },
+    {
+      "word": "excuse me",
+      "reading": "ikskyuuz mi",
+      "meaning": "affedersiniz",
+      "level": "orta",
+      "category": "selamlasma",
+      "emoji": "🙋",
+      "image": ""
+    },
+    {
+      "word": "yes",
+      "reading": "yes",
+      "meaning": "evet",
+      "level": "baslangic",
+      "category": "selamlasma",
+      "emoji": "✅",
+      "image": ""
+    },
+    {
+      "word": "no",
+      "reading": "no",
+      "meaning": "hayır",
+      "level": "baslangic",
+      "category": "selamlasma",
+      "emoji": "❌",
+      "image": ""
+    },
+    {
+      "word": "how are you",
+      "reading": "hau ar yu",
+      "meaning": "nasılsın",
+      "level": "orta",
+      "category": "selamlasma",
+      "emoji": "🤝",
+      "image": ""
+    },
+    {
+      "word": "what",
+      "reading": "vat",
+      "meaning": "ne",
+      "level": "baslangic",
+      "category": "sorular",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "where",
+      "reading": "veır",
+      "meaning": "nerede",
+      "level": "baslangic",
+      "category": "sorular",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "when",
+      "reading": "ven",
+      "meaning": "ne zaman",
+      "level": "baslangic",
+      "category": "sorular",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "who",
+      "reading": "hu",
+      "meaning": "kim",
+      "level": "baslangic",
+      "category": "sorular",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "why",
+      "reading": "vay",
+      "meaning": "neden",
+      "level": "baslangic",
+      "category": "sorular",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "how",
+      "reading": "hau",
+      "meaning": "nasıl",
+      "level": "baslangic",
+      "category": "sorular",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "which",
+      "reading": "viç",
+      "meaning": "hangisi",
+      "level": "orta",
+      "category": "sorular",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "whose",
+      "reading": "huuz",
+      "meaning": "kimin",
+      "level": "orta",
+      "category": "sorular",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "zero",
+      "reading": "zîro",
+      "meaning": "sıfır",
+      "level": "baslangic",
+      "category": "sayilar",
+      "emoji": "0️⃣",
+      "image": ""
+    },
+    {
+      "word": "one",
+      "reading": "van",
+      "meaning": "bir",
+      "level": "baslangic",
+      "category": "sayilar",
+      "emoji": "1️⃣",
+      "image": ""
+    },
+    {
+      "word": "two",
+      "reading": "tuu",
+      "meaning": "iki",
+      "level": "baslangic",
+      "category": "sayilar",
+      "emoji": "2️⃣",
+      "image": ""
+    },
+    {
+      "word": "three",
+      "reading": "tsrii",
+      "meaning": "üç",
+      "level": "baslangic",
+      "category": "sayilar",
+      "emoji": "3️⃣",
+      "image": ""
+    },
+    {
+      "word": "four",
+      "reading": "for",
+      "meaning": "dört",
+      "level": "baslangic",
+      "category": "sayilar",
+      "emoji": "4️⃣",
+      "image": ""
+    },
+    {
+      "word": "five",
+      "reading": "fayv",
+      "meaning": "beş",
+      "level": "baslangic",
+      "category": "sayilar",
+      "emoji": "5️⃣",
+      "image": ""
+    },
+    {
+      "word": "six",
+      "reading": "sîks",
+      "meaning": "altı",
+      "level": "baslangic",
+      "category": "sayilar",
+      "emoji": "6️⃣",
+      "image": ""
+    },
+    {
+      "word": "seven",
+      "reading": "sevın",
+      "meaning": "yedi",
+      "level": "baslangic",
+      "category": "sayilar",
+      "emoji": "7️⃣",
+      "image": ""
+    },
+    {
+      "word": "eight",
+      "reading": "eyt",
+      "meaning": "sekiz",
+      "level": "baslangic",
+      "category": "sayilar",
+      "emoji": "8️⃣",
+      "image": ""
+    },
+    {
+      "word": "nine",
+      "reading": "nayn",
+      "meaning": "dokuz",
+      "level": "baslangic",
+      "category": "sayilar",
+      "emoji": "9️⃣",
+      "image": ""
+    },
+    {
+      "word": "ten",
+      "reading": "ten",
+      "meaning": "on",
+      "level": "baslangic",
+      "category": "sayilar",
+      "emoji": "🔟",
+      "image": ""
+    },
+    {
+      "word": "eleven",
+      "reading": "ilevın",
+      "meaning": "on bir",
+      "level": "orta",
+      "category": "sayilar",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "twelve",
+      "reading": "tvelv",
+      "meaning": "on iki",
+      "level": "orta",
+      "category": "sayilar",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "thirteen",
+      "reading": "tsörtiin",
+      "meaning": "on üç",
+      "level": "orta",
+      "category": "sayilar",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "fourteen",
+      "reading": "fortiin",
+      "meaning": "on dört",
+      "level": "orta",
+      "category": "sayilar",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "fifteen",
+      "reading": "fiftiin",
+      "meaning": "on beş",
+      "level": "orta",
+      "category": "sayilar",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "sixteen",
+      "reading": "sikstiin",
+      "meaning": "on altı",
+      "level": "orta",
+      "category": "sayilar",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "seventeen",
+      "reading": "sevıntiin",
+      "meaning": "on yedi",
+      "level": "orta",
+      "category": "sayilar",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "eighteen",
+      "reading": "eytiin",
+      "meaning": "on sekiz",
+      "level": "orta",
+      "category": "sayilar",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "nineteen",
+      "reading": "nayntiin",
+      "meaning": "on dokuz",
+      "level": "orta",
+      "category": "sayilar",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "Monday",
+      "reading": "mandi",
+      "meaning": "pazartesi",
+      "level": "baslangic",
+      "category": "gunler",
+      "emoji": "📅",
+      "image": ""
+    },
+    {
+      "word": "Tuesday",
+      "reading": "tyuzdi",
+      "meaning": "salı",
+      "level": "baslangic",
+      "category": "gunler",
+      "emoji": "📅",
+      "image": ""
+    },
+    {
+      "word": "Wednesday",
+      "reading": "venzdi",
+      "meaning": "çarşamba",
+      "level": "baslangic",
+      "category": "gunler",
+      "emoji": "📅",
+      "image": ""
+    },
+    {
+      "word": "Thursday",
+      "reading": "tsörzdi",
+      "meaning": "perşembe",
+      "level": "baslangic",
+      "category": "gunler",
+      "emoji": "📅",
+      "image": ""
+    },
+    {
+      "word": "Friday",
+      "reading": "fraydi",
+      "meaning": "cuma",
+      "level": "baslangic",
+      "category": "gunler",
+      "emoji": "📅",
+      "image": ""
+    },
+    {
+      "word": "Saturday",
+      "reading": "seturdi",
+      "meaning": "cumartesi",
+      "level": "baslangic",
+      "category": "gunler",
+      "emoji": "📅",
+      "image": ""
+    },
+    {
+      "word": "Sunday",
+      "reading": "sandi",
+      "meaning": "pazar",
+      "level": "baslangic",
+      "category": "gunler",
+      "emoji": "📅",
+      "image": ""
+    },
+    {
+      "word": "January",
+      "reading": "cenyueri",
+      "meaning": "ocak",
+      "level": "baslangic",
+      "category": "aylar",
+      "emoji": "❄️",
+      "image": ""
+    },
+    {
+      "word": "February",
+      "reading": "februeri",
+      "meaning": "şubat",
+      "level": "baslangic",
+      "category": "aylar",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "March",
+      "reading": "març",
+      "meaning": "mart",
+      "level": "baslangic",
+      "category": "aylar",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "April",
+      "reading": "eyprıl",
+      "meaning": "nisan",
+      "level": "baslangic",
+      "category": "aylar",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "May",
+      "reading": "mey",
+      "meaning": "mayıs",
+      "level": "baslangic",
+      "category": "aylar",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "June",
+      "reading": "cuun",
+      "meaning": "haziran",
+      "level": "baslangic",
+      "category": "aylar",
+      "emoji": "☀️",
+      "image": ""
+    },
+    {
+      "word": "July",
+      "reading": "culay",
+      "meaning": "temmuz",
+      "level": "baslangic",
+      "category": "aylar",
+      "emoji": "☀️",
+      "image": ""
+    },
+    {
+      "word": "August",
+      "reading": "ogıst",
+      "meaning": "ağustos",
+      "level": "baslangic",
+      "category": "aylar",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "September",
+      "reading": "septembır",
+      "meaning": "eylül",
+      "level": "baslangic",
+      "category": "aylar",
+      "emoji": "🍂",
+      "image": ""
+    },
+    {
+      "word": "October",
+      "reading": "oktobır",
+      "meaning": "ekim",
+      "level": "baslangic",
+      "category": "aylar",
+      "emoji": "🍂",
+      "image": ""
+    },
+    {
+      "word": "November",
+      "reading": "novembır",
+      "meaning": "kasım",
+      "level": "baslangic",
+      "category": "aylar",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "December",
+      "reading": "disembır",
+      "meaning": "aralık",
+      "level": "baslangic",
+      "category": "aylar",
+      "emoji": "🎄",
+      "image": ""
+    },
+    {
+      "word": "today",
+      "reading": "tıdey",
+      "meaning": "bugün",
+      "level": "baslangic",
+      "category": "zaman",
+      "emoji": "📆",
+      "image": ""
+    },
+    {
+      "word": "tomorrow",
+      "reading": "tımoro",
+      "meaning": "yarın",
+      "level": "baslangic",
+      "category": "zaman",
+      "emoji": "📆",
+      "image": ""
+    },
+    {
+      "word": "yesterday",
+      "reading": "yestırdey",
+      "meaning": "dün",
+      "level": "baslangic",
+      "category": "zaman",
+      "emoji": "📆",
+      "image": ""
+    },
+    {
+      "word": "now",
+      "reading": "nau",
+      "meaning": "şimdi",
+      "level": "baslangic",
+      "category": "zaman",
+      "emoji": "⏰",
+      "image": ""
+    },
+    {
+      "word": "later",
+      "reading": "leytır",
+      "meaning": "sonra",
+      "level": "baslangic",
+      "category": "zaman",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "morning",
+      "reading": "mornîng",
+      "meaning": "sabah",
+      "level": "baslangic",
+      "category": "zaman",
+      "emoji": "🌅",
+      "image": ""
+    },
+    {
+      "word": "afternoon",
+      "reading": "aftırnun",
+      "meaning": "öğleden sonra",
+      "level": "baslangic",
+      "category": "zaman",
+      "emoji": "🌤️",
+      "image": ""
+    },
+    {
+      "word": "evening",
+      "reading": "iivnîng",
+      "meaning": "akşam",
+      "level": "baslangic",
+      "category": "zaman",
+      "emoji": "🌆",
+      "image": ""
+    },
+    {
+      "word": "night",
+      "reading": "nayt",
+      "meaning": "gece",
+      "level": "baslangic",
+      "category": "zaman",
+      "emoji": "🌙",
+      "image": ""
+    },
+    {
+      "word": "week",
+      "reading": "viik",
+      "meaning": "hafta",
+      "level": "baslangic",
+      "category": "zaman",
+      "emoji": "🗓️",
+      "image": ""
+    },
+    {
+      "word": "month",
+      "reading": "mants",
+      "meaning": "ay",
+      "level": "baslangic",
+      "category": "zaman",
+      "emoji": "🗓️",
+      "image": ""
+    },
+    {
+      "word": "year",
+      "reading": "yir",
+      "meaning": "yıl",
+      "level": "baslangic",
+      "category": "zaman",
+      "emoji": "🗓️",
+      "image": ""
+    },
+    {
+      "word": "red",
+      "reading": "red",
+      "meaning": "kırmızı",
+      "level": "baslangic",
+      "category": "renkler",
+      "emoji": "🔴",
+      "image": ""
+    },
+    {
+      "word": "blue",
+      "reading": "bluu",
+      "meaning": "mavi",
+      "level": "baslangic",
+      "category": "renkler",
+      "emoji": "🔵",
+      "image": ""
+    },
+    {
+      "word": "green",
+      "reading": "griin",
+      "meaning": "yeşil",
+      "level": "baslangic",
+      "category": "renkler",
+      "emoji": "🟢",
+      "image": ""
+    },
+    {
+      "word": "yellow",
+      "reading": "yelo",
+      "meaning": "sarı",
+      "level": "baslangic",
+      "category": "renkler",
+      "emoji": "🟡",
+      "image": ""
+    },
+    {
+      "word": "black",
+      "reading": "blek",
+      "meaning": "siyah",
+      "level": "baslangic",
+      "category": "renkler",
+      "emoji": "⚫",
+      "image": ""
+    },
+    {
+      "word": "white",
+      "reading": "vayt",
+      "meaning": "beyaz",
+      "level": "baslangic",
+      "category": "renkler",
+      "emoji": "⚪",
+      "image": ""
+    },
+    {
+      "word": "orange",
+      "reading": "orınc",
+      "meaning": "turuncu",
+      "level": "baslangic",
+      "category": "renkler",
+      "emoji": "🟠",
+      "image": ""
+    },
+    {
+      "word": "pink",
+      "reading": "pînk",
+      "meaning": "pembe",
+      "level": "baslangic",
+      "category": "renkler",
+      "emoji": "🩷",
+      "image": ""
+    },
+    {
+      "word": "purple",
+      "reading": "pörpıl",
+      "meaning": "mor",
+      "level": "baslangic",
+      "category": "renkler",
+      "emoji": "🟣",
+      "image": ""
+    },
+    {
+      "word": "brown",
+      "reading": "braun",
+      "meaning": "kahverengi",
+      "level": "baslangic",
+      "category": "renkler",
+      "emoji": "🟤",
+      "image": ""
+    },
+    {
+      "word": "gray",
+      "reading": "grey",
+      "meaning": "gri",
+      "level": "baslangic",
+      "category": "renkler",
+      "emoji": "⚪",
+      "image": ""
+    },
+    {
+      "word": "mother",
+      "reading": "madır",
+      "meaning": "anne",
+      "level": "baslangic",
+      "category": "aile",
+      "emoji": "👩",
+      "image": ""
+    },
+    {
+      "word": "father",
+      "reading": "fadır",
+      "meaning": "baba",
+      "level": "baslangic",
+      "category": "aile",
+      "emoji": "👨",
+      "image": ""
+    },
+    {
+      "word": "sister",
+      "reading": "sistır",
+      "meaning": "kız kardeş",
+      "level": "baslangic",
+      "category": "aile",
+      "emoji": "👧",
+      "image": ""
+    },
+    {
+      "word": "brother",
+      "reading": "bradır",
+      "meaning": "erkek kardeş",
+      "level": "baslangic",
+      "category": "aile",
+      "emoji": "👦",
+      "image": ""
+    },
+    {
+      "word": "grandmother",
+      "reading": "grenmadır",
+      "meaning": "büyükanne",
+      "level": "orta",
+      "category": "aile",
+      "emoji": "👵",
+      "image": ""
+    },
+    {
+      "word": "grandfather",
+      "reading": "grenfadır",
+      "meaning": "büyükbaba",
+      "level": "orta",
+      "category": "aile",
+      "emoji": "👴",
+      "image": ""
+    },
+    {
+      "word": "son",
+      "reading": "san",
+      "meaning": "oğul",
+      "level": "baslangic",
+      "category": "aile",
+      "emoji": "👦",
+      "image": ""
+    },
+    {
+      "word": "daughter",
+      "reading": "dotır",
+      "meaning": "kız evlat",
+      "level": "baslangic",
+      "category": "aile",
+      "emoji": "👧",
+      "image": ""
+    },
+    {
+      "word": "husband",
+      "reading": "hazbınd",
+      "meaning": "koca",
+      "level": "orta",
+      "category": "aile",
+      "emoji": "🤵",
+      "image": ""
+    },
+    {
+      "word": "wife",
+      "reading": "vayf",
+      "meaning": "eş (kadın)",
+      "level": "orta",
+      "category": "aile",
+      "emoji": "👰",
+      "image": ""
+    },
+    {
+      "word": "aunt",
+      "reading": "ent",
+      "meaning": "teyze / hala",
+      "level": "ileri",
+      "category": "aile",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "uncle",
+      "reading": "ankıl",
+      "meaning": "amca / dayı",
+      "level": "ileri",
+      "category": "aile",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "cousin",
+      "reading": "kazın",
+      "meaning": "kuzen",
+      "level": "ileri",
+      "category": "aile",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "baby",
+      "reading": "beybi",
+      "meaning": "bebek",
+      "level": "orta",
+      "category": "aile",
+      "emoji": "👶",
+      "image": ""
+    },
+    {
+      "word": "head",
+      "reading": "hed",
+      "meaning": "kafa",
+      "level": "baslangic",
+      "category": "vucut",
+      "emoji": "🗣️",
+      "image": ""
+    },
+    {
+      "word": "hair",
+      "reading": "heır",
+      "meaning": "saç",
+      "level": "baslangic",
+      "category": "vucut",
+      "emoji": "💇",
+      "image": ""
+    },
+    {
+      "word": "eye",
+      "reading": "ay",
+      "meaning": "göz",
+      "level": "baslangic",
+      "category": "vucut",
+      "emoji": "👁️",
+      "image": ""
+    },
+    {
+      "word": "ear",
+      "reading": "iır",
+      "meaning": "kulak",
+      "level": "baslangic",
+      "category": "vucut",
+      "emoji": "👂",
+      "image": ""
+    },
+    {
+      "word": "nose",
+      "reading": "noz",
+      "meaning": "burun",
+      "level": "baslangic",
+      "category": "vucut",
+      "emoji": "👃",
+      "image": ""
+    },
+    {
+      "word": "mouth",
+      "reading": "mauts",
+      "meaning": "ağız",
+      "level": "baslangic",
+      "category": "vucut",
+      "emoji": "👄",
+      "image": ""
+    },
+    {
+      "word": "tooth",
+      "reading": "tuuts",
+      "meaning": "diş",
+      "level": "baslangic",
+      "category": "vucut",
+      "emoji": "🦷",
+      "image": ""
+    },
+    {
+      "word": "hand",
+      "reading": "hend",
+      "meaning": "el",
+      "level": "baslangic",
+      "category": "vucut",
+      "emoji": "✋",
+      "image": ""
+    },
+    {
+      "word": "arm",
+      "reading": "arm",
+      "meaning": "kol",
+      "level": "baslangic",
+      "category": "vucut",
+      "emoji": "💪",
+      "image": ""
+    },
+    {
+      "word": "leg",
+      "reading": "leg",
+      "meaning": "bacak",
+      "level": "baslangic",
+      "category": "vucut",
+      "emoji": "🦵",
+      "image": ""
+    },
+    {
+      "word": "foot",
+      "reading": "fut",
+      "meaning": "ayak",
+      "level": "baslangic",
+      "category": "vucut",
+      "emoji": "🦶",
+      "image": ""
+    },
+    {
+      "word": "finger",
+      "reading": "fîngır",
+      "meaning": "parmak",
+      "level": "baslangic",
+      "category": "vucut",
+      "emoji": "👆",
+      "image": ""
+    },
+    {
+      "word": "back",
+      "reading": "bek",
+      "meaning": "sırt",
+      "level": "orta",
+      "category": "vucut",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "stomach",
+      "reading": "stamık",
+      "meaning": "mide / karın",
+      "level": "orta",
+      "category": "vucut",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "bread",
+      "reading": "bred",
+      "meaning": "ekmek",
+      "level": "baslangic",
+      "category": "yiyecek",
+      "emoji": "🍞",
+      "image": ""
+    },
+    {
+      "word": "water",
+      "reading": "votır",
+      "meaning": "su",
+      "level": "baslangic",
+      "category": "yiyecek",
+      "emoji": "💧",
+      "image": ""
+    },
+    {
+      "word": "milk",
+      "reading": "mîlk",
+      "meaning": "süt",
+      "level": "baslangic",
+      "category": "yiyecek",
+      "emoji": "🥛",
+      "image": ""
+    },
+    {
+      "word": "egg",
+      "reading": "eg",
+      "meaning": "yumurta",
+      "level": "baslangic",
+      "category": "yiyecek",
+      "emoji": "🥚",
+      "image": ""
+    },
+    {
+      "word": "cheese",
+      "reading": "çiiz",
+      "meaning": "peynir",
+      "level": "baslangic",
+      "category": "yiyecek",
+      "emoji": "🧀",
+      "image": ""
+    },
+    {
+      "word": "meat",
+      "reading": "miit",
+      "meaning": "et",
+      "level": "baslangic",
+      "category": "yiyecek",
+      "emoji": "🥩",
+      "image": ""
+    },
+    {
+      "word": "chicken",
+      "reading": "çikın",
+      "meaning": "tavuk",
+      "level": "baslangic",
+      "category": "yiyecek",
+      "emoji": "🍗",
+      "image": ""
+    },
+    {
+      "word": "fish",
+      "reading": "fîş",
+      "meaning": "balık",
+      "level": "orta",
+      "category": "yiyecek",
+      "emoji": "🐟",
+      "image": ""
+    },
+    {
+      "word": "rice",
+      "reading": "rays",
+      "meaning": "pirinç",
+      "level": "orta",
+      "category": "yiyecek",
+      "emoji": "🍚",
+      "image": ""
+    },
+    {
+      "word": "vegetable",
+      "reading": "vectıbıl",
+      "meaning": "sebze",
+      "level": "ileri",
+      "category": "yiyecek",
+      "emoji": "🥦",
+      "image": ""
+    },
+    {
+      "word": "fruit",
+      "reading": "fruut",
+      "meaning": "meyve",
+      "level": "baslangic",
+      "category": "yiyecek",
+      "emoji": "🍎",
+      "image": ""
+    },
+    {
+      "word": "apple",
+      "reading": "epıl",
+      "meaning": "elma",
+      "level": "baslangic",
+      "category": "yiyecek",
+      "emoji": "🍎",
+      "image": ""
+    },
+    {
+      "word": "banana",
+      "reading": "bınenı",
+      "meaning": "muz",
+      "level": "baslangic",
+      "category": "yiyecek",
+      "emoji": "🍌",
+      "image": ""
+    },
+    {
+      "word": "grape",
+      "reading": "greyp",
+      "meaning": "üzüm",
+      "level": "baslangic",
+      "category": "yiyecek",
+      "emoji": "🍇",
+      "image": ""
+    },
+    {
+      "word": "watermelon",
+      "reading": "votırmelın",
+      "meaning": "karpuz",
+      "level": "orta",
+      "category": "yiyecek",
+      "emoji": "🍉",
+      "image": ""
+    },
+    {
+      "word": "tomato",
+      "reading": "tımeyto",
+      "meaning": "domates",
+      "level": "orta",
+      "category": "yiyecek",
+      "emoji": "🍅",
+      "image": ""
+    },
+    {
+      "word": "potato",
+      "reading": "tıteyto",
+      "meaning": "patates",
+      "level": "orta",
+      "category": "yiyecek",
+      "emoji": "🥔",
+      "image": ""
+    },
+    {
+      "word": "onion",
+      "reading": "anyın",
+      "meaning": "soğan",
+      "level": "orta",
+      "category": "yiyecek",
+      "emoji": "🧅",
+      "image": ""
+    },
+    {
+      "word": "garlic",
+      "reading": "garlîk",
+      "meaning": "sarımsak",
+      "level": "orta",
+      "category": "yiyecek",
+      "emoji": "🧄",
+      "image": ""
+    },
+    {
+      "word": "sugar",
+      "reading": "şugır",
+      "meaning": "şeker",
+      "level": "baslangic",
+      "category": "yiyecek",
+      "emoji": "🍬",
+      "image": ""
+    },
+    {
+      "word": "salt",
+      "reading": "solt",
+      "meaning": "tuz",
+      "level": "baslangic",
+      "category": "yiyecek",
+      "emoji": "🧂",
+      "image": ""
+    },
+    {
+      "word": "pepper",
+      "reading": "pepır",
+      "meaning": "biber",
+      "level": "orta",
+      "category": "yiyecek",
+      "emoji": "🌶️",
+      "image": ""
+    },
+    {
+      "word": "soup",
+      "reading": "suup",
+      "meaning": "çorba",
+      "level": "baslangic",
+      "category": "yiyecek",
+      "emoji": "🍲",
+      "image": ""
+    },
+    {
+      "word": "dog",
+      "reading": "dog",
+      "meaning": "köpek",
+      "level": "baslangic",
+      "category": "hayvanlar",
+      "emoji": "🐶",
+      "image": ""
+    },
+    {
+      "word": "cat",
+      "reading": "ket",
+      "meaning": "kedi",
+      "level": "baslangic",
+      "category": "hayvanlar",
+      "emoji": "🐱",
+      "image": ""
+    },
+    {
+      "word": "bird",
+      "reading": "börd",
+      "meaning": "kuş",
+      "level": "baslangic",
+      "category": "hayvanlar",
+      "emoji": "🐦",
+      "image": ""
+    },
+    {
+      "word": "horse",
+      "reading": "hors",
+      "meaning": "at",
+      "level": "baslangic",
+      "category": "hayvanlar",
+      "emoji": "🐴",
+      "image": ""
+    },
+    {
+      "word": "cow",
+      "reading": "kau",
+      "meaning": "inek",
+      "level": "baslangic",
+      "category": "hayvanlar",
+      "emoji": "🐄",
+      "image": ""
+    },
+    {
+      "word": "sheep",
+      "reading": "şiip",
+      "meaning": "koyun",
+      "level": "baslangic",
+      "category": "hayvanlar",
+      "emoji": "🐑",
+      "image": ""
+    },
+    {
+      "word": "goat",
+      "reading": "got",
+      "meaning": "keçi",
+      "level": "ileri",
+      "category": "hayvanlar",
+      "emoji": "🐐",
+      "image": ""
+    },
+    {
+      "word": "rabbit",
+      "reading": "rebıt",
+      "meaning": "tavşan",
+      "level": "orta",
+      "category": "hayvanlar",
+      "emoji": "🐰",
+      "image": ""
+    },
+    {
+      "word": "mouse",
+      "reading": "maus",
+      "meaning": "fare",
+      "level": "orta",
+      "category": "hayvanlar",
+      "emoji": "🐭",
+      "image": ""
+    },
+    {
+      "word": "lion",
+      "reading": "layın",
+      "meaning": "aslan",
+      "level": "orta",
+      "category": "hayvanlar",
+      "emoji": "🦁",
+      "image": ""
+    },
+    {
+      "word": "tiger",
+      "reading": "taygır",
+      "meaning": "kaplan",
+      "level": "orta",
+      "category": "hayvanlar",
+      "emoji": "🐯",
+      "image": ""
+    },
+    {
+      "word": "bear",
+      "reading": "beır",
+      "meaning": "ayı",
+      "level": "orta",
+      "category": "hayvanlar",
+      "emoji": "🐻",
+      "image": ""
+    },
+    {
+      "word": "monkey",
+      "reading": "manki",
+      "meaning": "maymun",
+      "level": "orta",
+      "category": "hayvanlar",
+      "emoji": "🐒",
+      "image": ""
+    },
+    {
+      "word": "elephant",
+      "reading": "elifınt",
+      "meaning": "fil",
+      "level": "ileri",
+      "category": "hayvanlar",
+      "emoji": "🐘",
+      "image": ""
+    },
+    {
+      "word": "snake",
+      "reading": "sneyk",
+      "meaning": "yılan",
+      "level": "ileri",
+      "category": "hayvanlar",
+      "emoji": "🐍",
+      "image": ""
+    },
+    {
+      "word": "shirt",
+      "reading": "şört",
+      "meaning": "gömlek",
+      "level": "baslangic",
+      "category": "giysi",
+      "emoji": "👕",
+      "image": ""
+    },
+    {
+      "word": "trousers",
+      "reading": "trauzırz",
+      "meaning": "pantolon",
+      "level": "ileri",
+      "category": "giysi",
+      "emoji": "👖",
+      "image": ""
+    },
+    {
+      "word": "dress",
+      "reading": "dres",
+      "meaning": "elbise",
+      "level": "baslangic",
+      "category": "giysi",
+      "emoji": "👗",
+      "image": ""
+    },
+    {
+      "word": "skirt",
+      "reading": "skört",
+      "meaning": "etek",
+      "level": "orta",
+      "category": "giysi",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "shoes",
+      "reading": "şuuz",
+      "meaning": "ayakkabı",
+      "level": "orta",
+      "category": "giysi",
+      "emoji": "👟",
+      "image": ""
+    },
+    {
+      "word": "socks",
+      "reading": "soks",
+      "meaning": "çorap",
+      "level": "orta",
+      "category": "giysi",
+      "emoji": "🧦",
+      "image": ""
+    },
+    {
+      "word": "hat",
+      "reading": "het",
+      "meaning": "şapka",
+      "level": "orta",
+      "category": "giysi",
+      "emoji": "🎩",
+      "image": ""
+    },
+    {
+      "word": "coat",
+      "reading": "kot",
+      "meaning": "palto",
+      "level": "ileri",
+      "category": "giysi",
+      "emoji": "🧥",
+      "image": ""
+    },
+    {
+      "word": "jacket",
+      "reading": "cekıt",
+      "meaning": "ceket",
+      "level": "baslangic",
+      "category": "giysi",
+      "emoji": "🧥",
+      "image": ""
+    },
+    {
+      "word": "scarf",
+      "reading": "skarf",
+      "meaning": "atkı / eşarp",
+      "level": "ileri",
+      "category": "giysi",
+      "emoji": "🧣",
+      "image": ""
+    },
+    {
+      "word": "gloves",
+      "reading": "glavz",
+      "meaning": "eldiven",
+      "level": "ileri",
+      "category": "giysi",
+      "emoji": "🧤",
+      "image": ""
+    },
+    {
+      "word": "house",
+      "reading": "haus",
+      "meaning": "ev",
+      "level": "baslangic",
+      "category": "ev",
+      "emoji": "🏠",
+      "image": ""
+    },
+    {
+      "word": "room",
+      "reading": "ruum",
+      "meaning": "oda",
+      "level": "baslangic",
+      "category": "ev",
+      "emoji": "🚪",
+      "image": ""
+    },
+    {
+      "word": "kitchen",
+      "reading": "kîçın",
+      "meaning": "mutfak",
+      "level": "baslangic",
+      "category": "ev",
+      "emoji": "🍳",
+      "image": ""
+    },
+    {
+      "word": "bathroom",
+      "reading": "bastruum",
+      "meaning": "banyo",
+      "level": "baslangic",
+      "category": "ev",
+      "emoji": "🛁",
+      "image": ""
+    },
+    {
+      "word": "bedroom",
+      "reading": "bedruum",
+      "meaning": "yatak odası",
+      "level": "baslangic",
+      "category": "ev",
+      "emoji": "🛏️",
+      "image": ""
+    },
+    {
+      "word": "door",
+      "reading": "dor",
+      "meaning": "kapı",
+      "level": "baslangic",
+      "category": "ev",
+      "emoji": "🚪",
+      "image": ""
+    },
+    {
+      "word": "window",
+      "reading": "vîndo",
+      "meaning": "pencere",
+      "level": "baslangic",
+      "category": "ev",
+      "emoji": "🪟",
+      "image": ""
+    },
+    {
+      "word": "table",
+      "reading": "teybıl",
+      "meaning": "masa",
+      "level": "baslangic",
+      "category": "ev",
+      "emoji": "🪑",
+      "image": ""
+    },
+    {
+      "word": "chair",
+      "reading": "çeır",
+      "meaning": "sandalye",
+      "level": "baslangic",
+      "category": "ev",
+      "emoji": "🪑",
+      "image": ""
+    },
+    {
+      "word": "bed",
+      "reading": "bed",
+      "meaning": "yatak",
+      "level": "baslangic",
+      "category": "ev",
+      "emoji": "🛏️",
+      "image": ""
+    },
+    {
+      "word": "sofa",
+      "reading": "sofı",
+      "meaning": "kanepe",
+      "level": "orta",
+      "category": "ev",
+      "emoji": "🛋️",
+      "image": ""
+    },
+    {
+      "word": "key",
+      "reading": "kii",
+      "meaning": "anahtar",
+      "level": "orta",
+      "category": "ev",
+      "emoji": "🔑",
+      "image": ""
+    },
+    {
+      "word": "mirror",
+      "reading": "mîrır",
+      "meaning": "ayna",
+      "level": "ileri",
+      "category": "ev",
+      "emoji": "🪞",
+      "image": ""
+    },
+    {
+      "word": "lamp",
+      "reading": "lemp",
+      "meaning": "lamba",
+      "level": "ileri",
+      "category": "ev",
+      "emoji": "💡",
+      "image": ""
+    },
+    {
+      "word": "teacher",
+      "reading": "tiiçır",
+      "meaning": "öğretmen",
+      "level": "baslangic",
+      "category": "meslekler",
+      "emoji": "🧑‍🏫",
+      "image": ""
+    },
+    {
+      "word": "doctor",
+      "reading": "daktır",
+      "meaning": "doktor",
+      "level": "baslangic",
+      "category": "meslekler",
+      "emoji": "🧑‍⚕️",
+      "image": ""
+    },
+    {
+      "word": "nurse",
+      "reading": "nörs",
+      "meaning": "hemşire",
+      "level": "orta",
+      "category": "meslekler",
+      "emoji": "👩‍⚕️",
+      "image": ""
+    },
+    {
+      "word": "engineer",
+      "reading": "enciniır",
+      "meaning": "mühendis",
+      "level": "ileri",
+      "category": "meslekler",
+      "emoji": "👷",
+      "image": ""
+    },
+    {
+      "word": "police officer",
+      "reading": "polis ofisır",
+      "meaning": "polis memuru",
+      "level": "ileri",
+      "category": "meslekler",
+      "emoji": "👮",
+      "image": ""
+    },
+    {
+      "word": "farmer",
+      "reading": "farmır",
+      "meaning": "çiftçi",
+      "level": "ileri",
+      "category": "meslekler",
+      "emoji": "🧑‍🌾",
+      "image": ""
+    },
+    {
+      "word": "driver",
+      "reading": "drayvır",
+      "meaning": "şoför",
+      "level": "orta",
+      "category": "meslekler",
+      "emoji": "🚕",
+      "image": ""
+    },
+    {
+      "word": "cook",
+      "reading": "kuk",
+      "meaning": "aşçı",
+      "level": "orta",
+      "category": "meslekler",
+      "emoji": "👨‍🍳",
+      "image": ""
+    },
+    {
+      "word": "lawyer",
+      "reading": "loyır",
+      "meaning": "avukat",
+      "level": "ileri",
+      "category": "meslekler",
+      "emoji": "⚖️",
+      "image": ""
+    },
+    {
+      "word": "artist",
+      "reading": "artıst",
+      "meaning": "sanatçı",
+      "level": "ileri",
+      "category": "meslekler",
+      "emoji": "🎨",
+      "image": ""
+    },
+    {
+      "word": "waiter",
+      "reading": "veytır",
+      "meaning": "garson",
+      "level": "ileri",
+      "category": "meslekler",
+      "emoji": "🧑‍🍽️",
+      "image": ""
+    },
+    {
+      "word": "school",
+      "reading": "skuul",
+      "meaning": "okul",
+      "level": "baslangic",
+      "category": "yerler",
+      "emoji": "🏫",
+      "image": ""
+    },
+    {
+      "word": "hospital",
+      "reading": "hospitıl",
+      "meaning": "hastane",
+      "level": "orta",
+      "category": "yerler",
+      "emoji": "🏥",
+      "image": ""
+    },
+    {
+      "word": "airport",
+      "reading": "eirport",
+      "meaning": "havalimanı",
+      "level": "ileri",
+      "category": "yerler",
+      "emoji": "✈️",
+      "image": ""
+    },
+    {
+      "word": "restaurant",
+      "reading": "restırant",
+      "meaning": "restoran",
+      "level": "baslangic",
+      "category": "yerler",
+      "emoji": "🍽️",
+      "image": ""
+    },
+    {
+      "word": "market",
+      "reading": "markıt",
+      "meaning": "market / pazar",
+      "level": "orta",
+      "category": "yerler",
+      "emoji": "🛒",
+      "image": ""
+    },
+    {
+      "word": "hotel",
+      "reading": "hotel",
+      "meaning": "otel",
+      "level": "orta",
+      "category": "yerler",
+      "emoji": "🏨",
+      "image": ""
+    },
+    {
+      "word": "bank",
+      "reading": "benk",
+      "meaning": "banka",
+      "level": "ileri",
+      "category": "yerler",
+      "emoji": "🏦",
+      "image": ""
+    },
+    {
+      "word": "park",
+      "reading": "park",
+      "meaning": "park",
+      "level": "orta",
+      "category": "yerler",
+      "emoji": "🌳",
+      "image": ""
+    },
+    {
+      "word": "beach",
+      "reading": "biiç",
+      "meaning": "plaj",
+      "level": "orta",
+      "category": "yerler",
+      "emoji": "🏖️",
+      "image": ""
+    },
+    {
+      "word": "mosque",
+      "reading": "mosk",
+      "meaning": "cami",
+      "level": "orta",
+      "category": "yerler",
+      "emoji": "🕌",
+      "image": ""
+    },
+    {
+      "word": "museum",
+      "reading": "myuuziım",
+      "meaning": "müze",
+      "level": "ileri",
+      "category": "yerler",
+      "emoji": "🏛️",
+      "image": ""
+    },
+    {
+      "word": "pharmacy",
+      "reading": "farmısi",
+      "meaning": "eczane",
+      "level": "ileri",
+      "category": "yerler",
+      "emoji": "💊",
+      "image": ""
+    },
+    {
+      "word": "car",
+      "reading": "kar",
+      "meaning": "araba",
+      "level": "orta",
+      "category": "ulasim",
+      "emoji": "🚗",
+      "image": ""
+    },
+    {
+      "word": "bus",
+      "reading": "bas",
+      "meaning": "otobüs",
+      "level": "orta",
+      "category": "ulasim",
+      "emoji": "🚌",
+      "image": ""
+    },
+    {
+      "word": "train",
+      "reading": "treyn",
+      "meaning": "tren",
+      "level": "orta",
+      "category": "ulasim",
+      "emoji": "🚆",
+      "image": ""
+    },
+    {
+      "word": "plane",
+      "reading": "pleyn",
+      "meaning": "uçak",
+      "level": "orta",
+      "category": "ulasim",
+      "emoji": "✈️",
+      "image": ""
+    },
+    {
+      "word": "bicycle",
+      "reading": "baysîkıl",
+      "meaning": "bisiklet",
+      "level": "orta",
+      "category": "ulasim",
+      "emoji": "🚲",
+      "image": ""
+    },
+    {
+      "word": "taxi",
+      "reading": "teksi",
+      "meaning": "taksi",
+      "level": "orta",
+      "category": "ulasim",
+      "emoji": "🚕",
+      "image": ""
+    },
+    {
+      "word": "ship",
+      "reading": "şip",
+      "meaning": "gemi",
+      "level": "ileri",
+      "category": "ulasim",
+      "emoji": "🚢",
+      "image": ""
+    },
+    {
+      "word": "ticket",
+      "reading": "tikıt",
+      "meaning": "bilet",
+      "level": "orta",
+      "category": "ulasim",
+      "emoji": "🎫",
+      "image": ""
+    },
+    {
+      "word": "road",
+      "reading": "rod",
+      "meaning": "yol",
+      "level": "baslangic",
+      "category": "ulasim",
+      "emoji": "🛣️",
+      "image": ""
+    },
+    {
+      "word": "sun",
+      "reading": "san",
+      "meaning": "güneş",
+      "level": "orta",
+      "category": "hava_durumu",
+      "emoji": "☀️",
+      "image": ""
+    },
+    {
+      "word": "rain",
+      "reading": "reyn",
+      "meaning": "yağmur",
+      "level": "orta",
+      "category": "hava_durumu",
+      "emoji": "🌧️",
+      "image": ""
+    },
+    {
+      "word": "snow",
+      "reading": "sno",
+      "meaning": "kar",
+      "level": "orta",
+      "category": "hava_durumu",
+      "emoji": "❄️",
+      "image": ""
+    },
+    {
+      "word": "wind",
+      "reading": "vînd",
+      "meaning": "rüzgar",
+      "level": "orta",
+      "category": "hava_durumu",
+      "emoji": "💨",
+      "image": ""
+    },
+    {
+      "word": "cloud",
+      "reading": "klaud",
+      "meaning": "bulut",
+      "level": "orta",
+      "category": "hava_durumu",
+      "emoji": "☁️",
+      "image": ""
+    },
+    {
+      "word": "hot",
+      "reading": "hat",
+      "meaning": "sıcak",
+      "level": "baslangic",
+      "category": "hava_durumu",
+      "emoji": "🥵",
+      "image": ""
+    },
+    {
+      "word": "cold",
+      "reading": "kold",
+      "meaning": "soğuk",
+      "level": "baslangic",
+      "category": "hava_durumu",
+      "emoji": "🥶",
+      "image": ""
+    },
+    {
+      "word": "storm",
+      "reading": "storm",
+      "meaning": "fırtına",
+      "level": "ileri",
+      "category": "hava_durumu",
+      "emoji": "⛈️",
+      "image": ""
+    },
+    {
+      "word": "go",
+      "reading": "go",
+      "meaning": "gitmek",
+      "level": "baslangic",
+      "category": "fiiller_temel",
+      "emoji": "🚶",
+      "image": ""
+    },
+    {
+      "word": "come",
+      "reading": "kam",
+      "meaning": "gelmek",
+      "level": "baslangic",
+      "category": "fiiller_temel",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "eat",
+      "reading": "iit",
+      "meaning": "yemek yemek",
+      "level": "baslangic",
+      "category": "fiiller_temel",
+      "emoji": "🍽️",
+      "image": ""
+    },
+    {
+      "word": "drink",
+      "reading": "drînk",
+      "meaning": "içmek",
+      "level": "baslangic",
+      "category": "fiiller_temel",
+      "emoji": "🥤",
+      "image": ""
+    },
+    {
+      "word": "sleep",
+      "reading": "sliip",
+      "meaning": "uyumak",
+      "level": "orta",
+      "category": "fiiller_temel",
+      "emoji": "😴",
+      "image": ""
+    },
+    {
+      "word": "want",
+      "reading": "vant",
+      "meaning": "istemek",
+      "level": "orta",
+      "category": "fiiller_temel",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "need",
+      "reading": "niid",
+      "meaning": "ihtiyacı olmak",
+      "level": "orta",
+      "category": "fiiller_temel",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "like",
+      "reading": "layk",
+      "meaning": "hoşlanmak / sevmek",
+      "level": "orta",
+      "category": "fiiller_temel",
+      "emoji": "👍",
+      "image": ""
+    },
+    {
+      "word": "have",
+      "reading": "hev",
+      "meaning": "sahip olmak",
+      "level": "orta",
+      "category": "fiiller_temel",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "be",
+      "reading": "bii",
+      "meaning": "olmak",
+      "level": "baslangic",
+      "category": "fiiller_temel",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "can",
+      "reading": "ken",
+      "meaning": "yapabilmek",
+      "level": "baslangic",
+      "category": "fiiller_temel",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "see",
+      "reading": "sii",
+      "meaning": "görmek",
+      "level": "orta",
+      "category": "fiiller_temel",
+      "emoji": "👀",
+      "image": ""
+    },
+    {
+      "word": "work",
+      "reading": "vörk",
+      "meaning": "çalışmak",
+      "level": "orta",
+      "category": "fiiller_temel",
+      "emoji": "💼",
+      "image": ""
+    },
+    {
+      "word": "study",
+      "reading": "stadi",
+      "meaning": "ders çalışmak",
+      "level": "orta",
+      "category": "fiiller_temel",
+      "emoji": "📚",
+      "image": ""
+    },
+    {
+      "word": "play",
+      "reading": "pley",
+      "meaning": "oynamak",
+      "level": "orta",
+      "category": "fiiller_temel",
+      "emoji": "🎮",
+      "image": ""
+    },
+    {
+      "word": "buy",
+      "reading": "bay",
+      "meaning": "satın almak",
+      "level": "orta",
+      "category": "fiiller_temel",
+      "emoji": "🛍️",
+      "image": ""
+    },
+    {
+      "word": "help",
+      "reading": "help",
+      "meaning": "yardım etmek",
+      "level": "orta",
+      "category": "fiiller_temel",
+      "emoji": "🤝",
+      "image": ""
+    },
+    {
+      "word": "speak",
+      "reading": "spiik",
+      "meaning": "konuşmak",
+      "level": "orta",
+      "category": "fiiller_temel",
+      "emoji": "🗣️",
+      "image": ""
+    },
+    {
+      "word": "live",
+      "reading": "lîv",
+      "meaning": "yaşamak",
+      "level": "baslangic",
+      "category": "fiiller_temel",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "read",
+      "reading": "riid",
+      "meaning": "okumak",
+      "level": "orta",
+      "category": "fiiller_temel",
+      "emoji": "📖",
+      "image": ""
+    },
+    {
+      "word": "write",
+      "reading": "rayt",
+      "meaning": "yazmak",
+      "level": "orta",
+      "category": "fiiller_temel",
+      "emoji": "✍️",
+      "image": ""
+    },
+    {
+      "word": "listen",
+      "reading": "lisın",
+      "meaning": "dinlemek",
+      "level": "orta",
+      "category": "fiiller_temel",
+      "emoji": "👂",
+      "image": ""
+    },
+    {
+      "word": "walk",
+      "reading": "vok",
+      "meaning": "yürümek",
+      "level": "orta",
+      "category": "fiiller_temel",
+      "emoji": "🚶",
+      "image": ""
+    },
+    {
+      "word": "run",
+      "reading": "ran",
+      "meaning": "koşmak",
+      "level": "orta",
+      "category": "fiiller_temel",
+      "emoji": "🏃",
+      "image": ""
+    },
+    {
+      "word": "big",
+      "reading": "big",
+      "meaning": "büyük",
+      "level": "orta",
+      "category": "sifatlar_temel",
+      "emoji": "📏",
+      "image": ""
+    },
+    {
+      "word": "small",
+      "reading": "smol",
+      "meaning": "küçük",
+      "level": "orta",
+      "category": "sifatlar_temel",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "good",
+      "reading": "gud",
+      "meaning": "iyi",
+      "level": "orta",
+      "category": "sifatlar_temel",
+      "emoji": "👍",
+      "image": ""
+    },
+    {
+      "word": "bad",
+      "reading": "bed",
+      "meaning": "kötü",
+      "level": "orta",
+      "category": "sifatlar_temel",
+      "emoji": "👎",
+      "image": ""
+    },
+    {
+      "word": "happy",
+      "reading": "hepi",
+      "meaning": "mutlu",
+      "level": "orta",
+      "category": "sifatlar_temel",
+      "emoji": "😄",
+      "image": ""
+    },
+    {
+      "word": "sad",
+      "reading": "sed",
+      "meaning": "üzgün",
+      "level": "orta",
+      "category": "sifatlar_temel",
+      "emoji": "😢",
+      "image": ""
+    },
+    {
+      "word": "fast",
+      "reading": "fest",
+      "meaning": "hızlı",
+      "level": "orta",
+      "category": "sifatlar_temel",
+      "emoji": "⚡",
+      "image": ""
+    },
+    {
+      "word": "slow",
+      "reading": "slo",
+      "meaning": "yavaş",
+      "level": "orta",
+      "category": "sifatlar_temel",
+      "emoji": "🐢",
+      "image": ""
+    },
+    {
+      "word": "new",
+      "reading": "nyu",
+      "meaning": "yeni",
+      "level": "orta",
+      "category": "sifatlar_temel",
+      "emoji": "✨",
+      "image": ""
+    },
+    {
+      "word": "old",
+      "reading": "old",
+      "meaning": "eski / yaşlı",
+      "level": "orta",
+      "category": "sifatlar_temel",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "expensive",
+      "reading": "iksponsîv",
+      "meaning": "pahalı",
+      "level": "ileri",
+      "category": "sifatlar_temel",
+      "emoji": "💸",
+      "image": ""
+    },
+    {
+      "word": "cheap",
+      "reading": "çiip",
+      "meaning": "ucuz",
+      "level": "ileri",
+      "category": "sifatlar_temel",
+      "emoji": "🪙",
+      "image": ""
+    },
+    {
+      "word": "beautiful",
+      "reading": "byutıfıl",
+      "meaning": "güzel",
+      "level": "baslangic",
+      "category": "sifatlar_temel",
+      "emoji": "😍",
+      "image": ""
+    },
+    {
+      "word": "ugly",
+      "reading": "agli",
+      "meaning": "çirkin",
+      "level": "ileri",
+      "category": "sifatlar_temel",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "easy",
+      "reading": "iizi",
+      "meaning": "kolay",
+      "level": "baslangic",
+      "category": "sifatlar_temel",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "difficult",
+      "reading": "difikılt",
+      "meaning": "zor",
+      "level": "ileri",
+      "category": "sifatlar_temel",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "clean",
+      "reading": "kliin",
+      "meaning": "temiz",
+      "level": "baslangic",
+      "category": "sifatlar_temel",
+      "emoji": "🧼",
+      "image": ""
+    },
+    {
+      "word": "dirty",
+      "reading": "dörti",
+      "meaning": "kirli",
+      "level": "ileri",
+      "category": "sifatlar_temel",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "angry",
+      "reading": "engri",
+      "meaning": "kızgın",
+      "level": "orta",
+      "category": "duygular",
+      "emoji": "😠",
+      "image": ""
+    },
+    {
+      "word": "scared",
+      "reading": "skeırd",
+      "meaning": "korkmuş",
+      "level": "orta",
+      "category": "duygular",
+      "emoji": "😨",
+      "image": ""
+    },
+    {
+      "word": "tired",
+      "reading": "tayırd",
+      "meaning": "yorgun",
+      "level": "orta",
+      "category": "duygular",
+      "emoji": "😪",
+      "image": ""
+    },
+    {
+      "word": "excited",
+      "reading": "iksaytıd",
+      "meaning": "heyecanlı",
+      "level": "orta",
+      "category": "duygular",
+      "emoji": "🤩",
+      "image": ""
+    },
+    {
+      "word": "bored",
+      "reading": "bord",
+      "meaning": "sıkılmış",
+      "level": "orta",
+      "category": "duygular",
+      "emoji": "😑",
+      "image": ""
+    },
+    {
+      "word": "surprised",
+      "reading": "sırprayzd",
+      "meaning": "şaşırmış",
+      "level": "ileri",
+      "category": "duygular",
+      "emoji": "😲",
+      "image": ""
+    },
+    {
+      "word": "worried",
+      "reading": "vörid",
+      "meaning": "endişeli",
+      "level": "ileri",
+      "category": "duygular",
+      "emoji": "😟",
+      "image": ""
+    },
+    {
+      "word": "proud",
+      "reading": "praud",
+      "meaning": "gururlu",
+      "level": "ileri",
+      "category": "duygular",
+      "emoji": "😌",
+      "image": ""
+    },
+    {
+      "word": "confused",
+      "reading": "kınfyuzd",
+      "meaning": "kafası karışmış",
+      "level": "ileri",
+      "category": "duygular",
+      "emoji": "😵",
+      "image": ""
+    },
+    {
+      "word": "grateful",
+      "reading": "greytfıl",
+      "meaning": "minnettar",
+      "level": "ileri",
+      "category": "duygular",
+      "emoji": "🙏",
+      "image": ""
+    },
+    {
+      "word": "phone",
+      "reading": "fon",
+      "meaning": "telefon",
+      "level": "orta",
+      "category": "teknoloji",
+      "emoji": "📱",
+      "image": ""
+    },
+    {
+      "word": "computer",
+      "reading": "kımpyutır",
+      "meaning": "bilgisayar",
+      "level": "orta",
+      "category": "teknoloji",
+      "emoji": "💻",
+      "image": ""
+    },
+    {
+      "word": "internet",
+      "reading": "intırnet",
+      "meaning": "internet",
+      "level": "orta",
+      "category": "teknoloji",
+      "emoji": "🌐",
+      "image": ""
+    },
+    {
+      "word": "password",
+      "reading": "pesvörd",
+      "meaning": "şifre",
+      "level": "ileri",
+      "category": "teknoloji",
+      "emoji": "🔒",
+      "image": ""
+    },
+    {
+      "word": "email",
+      "reading": "iimeyl",
+      "meaning": "e-posta",
+      "level": "ileri",
+      "category": "teknoloji",
+      "emoji": "📧",
+      "image": ""
+    },
+    {
+      "word": "screen",
+      "reading": "skriin",
+      "meaning": "ekran",
+      "level": "ileri",
+      "category": "teknoloji",
+      "emoji": "🖥️",
+      "image": ""
+    },
+    {
+      "word": "battery",
+      "reading": "beteri",
+      "meaning": "pil / batarya",
+      "level": "ileri",
+      "category": "teknoloji",
+      "emoji": "🔋",
+      "image": ""
+    },
+    {
+      "word": "camera",
+      "reading": "kemırı",
+      "meaning": "kamera",
+      "level": "orta",
+      "category": "teknoloji",
+      "emoji": "📷",
+      "image": ""
+    },
+    {
+      "word": "money",
+      "reading": "mani",
+      "meaning": "para",
+      "level": "orta",
+      "category": "alisveris",
+      "emoji": "💵",
+      "image": ""
+    },
+    {
+      "word": "price",
+      "reading": "prays",
+      "meaning": "fiyat",
+      "level": "orta",
+      "category": "alisveris",
+      "emoji": "🏷️",
+      "image": ""
+    },
+    {
+      "word": "pay",
+      "reading": "pey",
+      "meaning": "ödemek",
+      "level": "orta",
+      "category": "alisveris",
+      "emoji": "💳",
+      "image": ""
+    },
+    {
+      "word": "cash",
+      "reading": "keş",
+      "meaning": "nakit",
+      "level": "orta",
+      "category": "alisveris",
+      "emoji": "💵",
+      "image": ""
+    },
+    {
+      "word": "card",
+      "reading": "kard",
+      "meaning": "kart",
+      "level": "orta",
+      "category": "alisveris",
+      "emoji": "💳",
+      "image": ""
+    },
+    {
+      "word": "shop",
+      "reading": "şap",
+      "meaning": "dükkan",
+      "level": "orta",
+      "category": "alisveris",
+      "emoji": "🏪",
+      "image": ""
+    },
+    {
+      "word": "discount",
+      "reading": "diskaunt",
+      "meaning": "indirim",
+      "level": "ileri",
+      "category": "alisveris",
+      "emoji": "🏷️",
+      "image": ""
+    },
+    {
+      "word": "receipt",
+      "reading": "risiit",
+      "meaning": "fiş / makbuz",
+      "level": "ileri",
+      "category": "alisveris",
+      "emoji": "🧾",
+      "image": ""
+    },
+    {
+      "word": "football",
+      "reading": "futbol",
+      "meaning": "futbol",
+      "level": "orta",
+      "category": "spor",
+      "emoji": "⚽",
+      "image": ""
+    },
+    {
+      "word": "basketball",
+      "reading": "besketbol",
+      "meaning": "basketbol",
+      "level": "orta",
+      "category": "spor",
+      "emoji": "🏀",
+      "image": ""
+    },
+    {
+      "word": "swim",
+      "reading": "svim",
+      "meaning": "yüzmek",
+      "level": "orta",
+      "category": "spor",
+      "emoji": "🏊",
+      "image": ""
+    },
+    {
+      "word": "team",
+      "reading": "tiim",
+      "meaning": "takım",
+      "level": "ileri",
+      "category": "spor",
+      "emoji": "🤝",
+      "image": ""
+    },
+    {
+      "word": "ball",
+      "reading": "bol",
+      "meaning": "top",
+      "level": "orta",
+      "category": "spor",
+      "emoji": "⚽",
+      "image": ""
+    },
+    {
+      "word": "win",
+      "reading": "vin",
+      "meaning": "kazanmak",
+      "level": "ileri",
+      "category": "spor",
+      "emoji": "🏆",
+      "image": ""
+    },
+    {
+      "word": "lose",
+      "reading": "luuz",
+      "meaning": "kaybetmek",
+      "level": "ileri",
+      "category": "spor",
+      "emoji": "",
+      "image": ""
+    },
+    {
+      "word": "book",
+      "reading": "buk",
+      "meaning": "kitap",
+      "level": "orta",
+      "category": "okul",
+      "emoji": "📘",
+      "image": ""
+    },
+    {
+      "word": "pen",
+      "reading": "pen",
+      "meaning": "kalem (tükenmez)",
+      "level": "orta",
+      "category": "okul",
+      "emoji": "🖊️",
+      "image": ""
+    },
+    {
+      "word": "pencil",
+      "reading": "pensıl",
+      "meaning": "kurşun kalem",
+      "level": "orta",
+      "category": "okul",
+      "emoji": "✏️",
+      "image": ""
+    },
+    {
+      "word": "paper",
+      "reading": "peypır",
+      "meaning": "kağıt",
+      "level": "orta",
+      "category": "okul",
+      "emoji": "📄",
+      "image": ""
+    },
+    {
+      "word": "desk",
+      "reading": "desk",
+      "meaning": "okul sırası / masa",
+      "level": "ileri",
+      "category": "okul",
+      "emoji": "🪑",
+      "image": ""
+    },
+    {
+      "word": "class",
+      "reading": "kles",
+      "meaning": "sınıf",
+      "level": "orta",
+      "category": "okul",
+      "emoji": "🏫",
+      "image": ""
+    },
+    {
+      "word": "question",
+      "reading": "kvesçın",
+      "meaning": "soru",
+      "level": "ileri",
+      "category": "okul",
+      "emoji": "❓",
+      "image": ""
+    },
+    {
+      "word": "answer",
+      "reading": "ensır",
+      "meaning": "cevap",
+      "level": "ileri",
+      "category": "okul",
+      "emoji": "✅",
+      "image": ""
+    }
+  ]
+}
