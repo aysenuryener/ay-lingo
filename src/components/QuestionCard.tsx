@@ -20,6 +20,7 @@ export default function QuestionCard({ question, speechLang, mode, onAnswered, o
   const [scrambleChecked, setScrambleChecked] = useState(false);
   const [scrambleCorrect, setScrambleCorrect] = useState(false);
   const [encouragement] = useState(() => pickRandom(ENCOURAGEMENT_MESSAGES));
+  const [scrambleListenPlaying, setScrambleListenPlaying] = useState(false);
 
   const answered = question.kind === "scramble" ? scrambleChecked : chosenIndex !== null;
 
@@ -138,8 +139,14 @@ export default function QuestionCard({ question, speechLang, mode, onAnswered, o
       </div>
       <button
         type="button"
-        className="scramble-listen"
-        onClick={() => speak(question.answer, speechLang)}
+        className={`scramble-listen ${scrambleListenPlaying ? "scramble-listen--playing" : ""}`}
+        onClick={() => {
+          setScrambleListenPlaying(true);
+          speak(question.answer, speechLang, {
+            onStart: () => setScrambleListenPlaying(true),
+            onEnd: () => setScrambleListenPlaying(false),
+          });
+        }}
       >
         🔊 Sesi dinle
       </button>

@@ -9,6 +9,7 @@ import {
   setActiveProfile,
 } from "./lib/profiles";
 import { getLanguageByCode } from "./lib/languages";
+import { warmUpSpeech } from "./lib/tts";
 import ProfileSelect from "./screens/ProfileSelect";
 import LanguageSelect from "./screens/LanguageSelect";
 import Home, { type Screen } from "./screens/Home";
@@ -33,6 +34,10 @@ export default function App() {
     const code = getActiveLanguageCode(p.id);
     return code && getLanguageByCode(code) ? "home" : "language";
   });
+
+  useEffect(() => {
+    warmUpSpeech();
+  }, []);
 
   useEffect(() => {
     document.documentElement.dir = language ? language.meta.direction : "ltr";
