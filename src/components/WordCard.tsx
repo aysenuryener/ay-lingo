@@ -11,13 +11,22 @@ interface WordCardProps {
 export default function WordCard({ word, speechLang }: WordCardProps) {
   const [revealed, setRevealed] = useState(false);
 
+  function toggle() {
+    setRevealed((r) => !r);
+    speak(word.word, speechLang);
+  }
+
   return (
-    <button
-      type="button"
+    <div
+      role="button"
+      tabIndex={0}
       className={`word-card ${revealed ? "word-card--revealed" : ""}`}
-      onClick={() => {
-        setRevealed((r) => !r);
-        speak(word.word, speechLang);
+      onClick={toggle}
+      onKeyDown={(e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          toggle();
+        }
       }}
     >
       <div className="word-card__emoji">{word.emoji || "🔤"}</div>
@@ -27,6 +36,6 @@ export default function WordCard({ word, speechLang }: WordCardProps) {
       <div className="word-card__speaker">
         <SpeakerButton text={word.word} langCode={speechLang} size="large" />
       </div>
-    </button>
+    </div>
   );
 }
