@@ -38,6 +38,14 @@ export default function App() {
     document.documentElement.dir = language ? language.meta.direction : "ltr";
   }, [language]);
 
+  useEffect(() => {
+    if (profile) {
+      document.documentElement.dataset.mode = profile.mode;
+    } else {
+      delete document.documentElement.dataset.mode;
+    }
+  }, [profile]);
+
   function handleProfileSelected(p: Profile) {
     setActiveProfile(p.id);
     setProfile(p);

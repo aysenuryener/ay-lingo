@@ -3,7 +3,11 @@ import type { LoadedLanguage } from "../types/language";
 import type { Profile } from "../types/profile";
 import { buildQuiz, buildQuizFrom } from "../lib/quiz";
 import { getProgress, recordAnswer } from "../lib/progressStore";
+import { recordQuizCompletion, type QuizCompletionResult } from "../lib/storage";
+import { BADGES } from "../lib/badges";
+import { formatCelebration } from "../lib/messages";
 import QuestionCard from "../components/QuestionCard";
+import Celebration from "../components/Celebration";
 
 interface QuizProps {
   profile: Profile;
@@ -23,6 +27,8 @@ export default function Quiz({ profile, language, onBack }: QuizProps) {
   const [index, setIndex] = useState(0);
   const [answers, setAnswers] = useState<AnsweredEntry[]>([]);
   const [finished, setFinished] = useState(false);
+  const [completion, setCompletion] = useState<QuizCompletionResult | null>(null);
+  const [showCelebration, setShowCelebration] = useState(false);
 
   const current = questions[index];
 
@@ -33,7 +39,10 @@ export default function Quiz({ profile, language, onBack }: QuizProps) {
 
   function handleNext() {
     if (index + 1 >= questions.length) {
+      const result = recordQuizCompletion(profile.id, language.meta.code, answers);
+      setCompletion(result);
       setFinished(true);
+      setShowCelebration(true);
     } else {
       setIndex(index + 1);
     }
@@ -45,6 +54,7 @@ export default function Quiz({ profile, language, onBack }: QuizProps) {
     setAnswers([]);
     setIndex(0);
     setFinished(false);
+    setCompletion(null);
   }
 
   function retryAll() {
@@ -52,6 +62,7 @@ export default function Quiz({ profile, language, onBack }: QuizProps) {
     setAnswers([]);
     setIndex(0);
     setFinished(false);
+    setCompletion(null);
   }
 
   if (finished) {
@@ -61,6 +72,27 @@ export default function Quiz({ profile, language, onBack }: QuizProps) {
 
     return (
       <div className="screen">
+        {showCelebration &&
+          completion &&
+          (profile.mode === "cocuk" ? (
+            <Celebration
+              variant="full"
+              message={formatCelebration(profile.name)}
+              newlyEarnedBadgeNames={badgeNames(completion.newlyEarnedBadgeIds)}
+              onContinue={() => setShowCelebration(false)}
+            />
+          ) : (
+            <Celebration
+              variant="subtle"
+              message={
+                completion.leveledUp
+                  ? `Harika iş, ${profile.name}. Seviye atladın.`
+                  : `Harika iş, ${profile.name}.`
+              }
+              onContinue={() => setShowCelebration(false)}
+            />
+          ))}
+
         <div className="screen-header">
           <button type="button" className="back-button" onClick={onBack} aria-label="Geri">
             ←
@@ -113,9 +145,14 @@ export default function Quiz({ profile, language, onBack }: QuizProps) {
         key={`${current.wordId}-${current.kind}-${index}`}
         question={current}
         speechLang={language.meta.speechLang}
+        mode={profile.mode}
         onAnswered={handleAnswered}
         onNext={handleNext}
       />
     </div>
   );
+}
+
+function badgeNames(ids: string[]): string[] {
+  return ids.map((id) => BADGES.find((b) => b.id === id)?.name ?? id);
 }

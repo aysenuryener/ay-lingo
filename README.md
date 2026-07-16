@@ -112,7 +112,31 @@ Bu nesnelerden istediğin kadar `words` listesinin içine, virgülle ayırarak e
 
 ---
 
-## 4. Deploy (Vercel)
+## 4. V2 Özellikleri
+
+### Mod sistemi
+Profil oluşturulurken isim yanında **yaş** de sorulur. Yaş **12 ve altı → Çocuk Modu**,
+**13 ve üzeri → Yetişkin Modu**. Mod, profille birlikte kaydedilir ve bir daha sorulmaz;
+"Profil Değiştir" ile başka/yeni bir profile geçilebilir. Çocuk modunda sıcak renkli,
+büyük dokunma alanlı arayüz, bir maskot (SVG baykuş) ve tam ekran kutlamalar; yetişkin
+modunda v1'in sade tasarımı + istatistik paneli + günlük hedef halkası kullanılır.
+
+### Ödül kuralları
+- **Yıldız**: her doğru quiz cevabında +1 (arka planda her iki modda da birikir).
+- **Seviye**: yıldıza göre — Çaylak (0) / Kaşif (50) / Usta (150) / Şampiyon (300).
+  Yetişkin modda aynı eşikler "Seviye 1-4" olarak gösterilir.
+- **Rozetler**: İlk 10 Kelime (10 farklı kelimeyi doğru bilmek), Hatasız Sınav (bir
+  sınavı hatasız bitirmek), 3 Gün Serisi, 50 Yıldız, 100 Yıldız.
+- **Seri**: üst üste giriş yapılan gün sayısı (mevcut günlük seri mekanizması).
+- **Günlük hedef** (yetişkin modu): varsayılan 10 kelime/gün, +/- ile ayarlanabilir.
+
+### Storage şeması
+Tüm V2 verisi `src/lib/storage.ts` üzerinden okunur/yazılır (`GamificationState`:
+yıldız, rozetler, günlük hedef, `learnedWords` — kelime bazlı ilk-doğru tarihleri).
+Bozuk/eksik veri güvenli varsayılana döner, uygulama çökmez. İleride bir backend'e
+(örn. Supabase) geçilirse sadece bu dosyanın içi değişir, çağıran ekranlar aynı kalır.
+
+## 5. Deploy (Vercel)
 
 Proje Vercel'e bağlıysa, `main` dalına yapılan her `git push` otomatik yeni bir canlı sürüm oluşturabilir (Vercel projeye nasıl bağlandıysa ona göre). Elle deploy etmek için proje klasöründe:
 

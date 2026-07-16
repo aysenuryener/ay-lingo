@@ -1,6 +1,10 @@
+export type AppMode = "cocuk" | "yetiskin";
+
 export interface Profile {
   id: string;
   name: string;
+  age: number;
+  mode: AppMode;
   createdAt: string;
 }
 

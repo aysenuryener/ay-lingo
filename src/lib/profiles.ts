@@ -20,11 +20,15 @@ export function getProfiles(): Profile[] {
   return readProfiles();
 }
 
-export function createProfile(name: string): Profile {
+const CHILD_MODE_MAX_AGE = 12;
+
+export function createProfile(name: string, age: number): Profile {
   const profiles = readProfiles();
   const profile: Profile = {
     id: crypto.randomUUID(),
     name: name.trim(),
+    age,
+    mode: age <= CHILD_MODE_MAX_AGE ? "cocuk" : "yetiskin",
     createdAt: new Date().toISOString(),
   };
   profiles.push(profile);

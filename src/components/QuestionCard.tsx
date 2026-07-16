@@ -1,22 +1,37 @@
 import { useState } from "react";
 import type { QuizQuestion } from "../types/quiz";
+import type { AppMode } from "../types/profile";
 import { speak } from "../lib/tts";
+import { ENCOURAGEMENT_MESSAGES, pickRandom } from "../lib/messages";
 import SpeakerButton from "./SpeakerButton";
+import Mascot from "./Mascot";
 
 interface QuestionCardProps {
   question: QuizQuestion;
   speechLang: string;
+  mode?: AppMode;
   onAnswered: (correct: boolean) => void;
   onNext: () => void;
 }
 
-export default function QuestionCard({ question, speechLang, onAnswered, onNext }: QuestionCardProps) {
+export default function QuestionCard({ question, speechLang, mode, onAnswered, onNext }: QuestionCardProps) {
   const [chosenIndex, setChosenIndex] = useState<number | null>(null);
   const [stagedOrder, setStagedOrder] = useState<number[]>([]);
   const [scrambleChecked, setScrambleChecked] = useState(false);
   const [scrambleCorrect, setScrambleCorrect] = useState(false);
+  const [encouragement] = useState(() => pickRandom(ENCOURAGEMENT_MESSAGES));
 
   const answered = question.kind === "scramble" ? scrambleChecked : chosenIndex !== null;
+
+  function kidReaction(correct: boolean) {
+    if (mode !== "cocuk") return null;
+    return (
+      <div className="question-mascot-reaction">
+        <Mascot mood={correct ? "happy" : "soft-sad"} size={64} />
+        {!correct && <p className="encouragement-text">{encouragement}</p>}
+      </div>
+    );
+  }
 
   function chooseOption(index: number) {
     if (chosenIndex !== null) return;
@@ -68,6 +83,7 @@ export default function QuestionCard({ question, speechLang, onAnswered, onNext 
             );
           })}
         </div>
+        {answered && kidReaction(chosenIndex === question.correctIndex)}
         {answered && (
           <button type="button" className="btn btn--primary" onClick={onNext}>
             Devam Et
@@ -102,6 +118,7 @@ export default function QuestionCard({ question, speechLang, onAnswered, onNext 
             );
           })}
         </div>
+        {answered && kidReaction(chosenIndex === question.correctIndex)}
         {answered && (
           <button type="button" className="btn btn--primary" onClick={onNext}>
             Devam Et
@@ -147,6 +164,8 @@ export default function QuestionCard({ question, speechLang, onAnswered, onNext 
       {scrambleChecked && !scrambleCorrect && (
         <div className="scramble-correction">Doğrusu: {question.answer}</div>
       )}
+
+      {scrambleChecked && kidReaction(scrambleCorrect)}
 
       {!scrambleChecked ? (
         <button
